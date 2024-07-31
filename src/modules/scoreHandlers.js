@@ -1,3 +1,6 @@
+/* eslint-disable consistent-return */
+/* eslint-disable no-use-before-define */
+
 // Retrieve the game ID from localStorage or set it manually
 const gameId = localStorage.getItem('gameId') || 'cubtuwZUF1WDalbuocz5'; // Replace 'your_game_id_here' with the actual game ID
 
