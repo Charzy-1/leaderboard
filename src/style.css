@@ -20,11 +20,7 @@ body {
   background-color: white;
   width: 100px;
   height: 3px;
-  margin-bottom: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
+  margin: 20px auto;
 }
 
 .second-heading {
