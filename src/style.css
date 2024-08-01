@@ -11,12 +11,12 @@ body {
 }
 
 .first-heading {
-  margin: 50px 0 0px;
+  margin: 50px 0 0;
   text-align: center;
   color: white;
 }
 
-.horizontal_line{
+.horizontal_line {
   background-color: white;
   width: 100px;
   height: 3px;
