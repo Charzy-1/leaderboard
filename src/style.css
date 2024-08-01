@@ -7,10 +7,24 @@
 body {
   font-family: "Margarine", sans-serif;
   height: 100vh;
+  background: linear-gradient(20deg, #746c6b, #7a685b);
 }
 
 .first-heading {
-  margin: 50px;
+  margin: 50px 0 0px;
+  text-align: center;
+  color: white;
+}
+
+.horizontal_line{
+  background-color: white;
+  width: 100px;
+  height: 3px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .second-heading {
@@ -18,6 +32,7 @@ body {
 }
 
 .leaderboard {
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +47,7 @@ body {
 .recent-scoresH2 {
   display: flex;
   gap: 20px;
-  margin-bottom: 20px;
+  margin: 30px;
 }
 
 #scores-list {
@@ -75,4 +90,10 @@ form input {
   margin-top: 10px;
   align-self: flex-end;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .leaderboard {
+    flex-direction: column;
+  }
 }
